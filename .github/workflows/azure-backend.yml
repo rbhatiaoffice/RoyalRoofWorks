@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_WEBAPP_NAME: royalroofworks-backend
+  AZURE_WEBAPP_NAME: royalroofworks-backend-austriaeast-01
   NODE_VERSION: '18.x'
 
 jobs:
