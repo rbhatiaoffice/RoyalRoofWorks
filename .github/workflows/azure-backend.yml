@@ -36,6 +36,10 @@ jobs:
         working-directory: ./backend
         run: npm ci
 
+      - name: Prune dev dependencies
+        working-directory: ./backend
+        run: npm prune --production
+
       - name: Build (if needed)
         working-directory: ./backend
         run: echo "No build step required for Express backend"
